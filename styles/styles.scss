@@ -1,1 +1,12 @@
 @import './mixins/medias';
+
+.products {
+  &__image {
+    height: 100px;
+    background: black;
+  }
+}
+
+.withMarginBottom {
+  margin-bottom: 20px;
+}
